@@ -1,0 +1,30 @@
+@import '../colors';
+
+input {
+  border: none;
+  border-bottom: @font-color solid 3px;
+  background: transparent;
+  width: 100%;
+  font-weight: 700;
+
+  &:focus {
+    outline: none;
+    transform: scale(1.03);
+  }
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: @font-color;
+  font-weight: 700;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  font-weight: 700;
+  color: @font-color;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  font-weight: 700;
+  color: @font-color;
+}

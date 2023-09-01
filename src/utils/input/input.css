@@ -1,0 +1,29 @@
+input {
+  border: none;
+  border-bottom: #566885 solid 3px;
+  background: transparent;
+  width: 100%;
+  font-weight: 700;
+}
+input:focus {
+  outline: none;
+  transform: scale(1.03);
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #566885;
+  font-weight: 700;
+  opacity: 1;
+  /* Firefox */
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  font-weight: 700;
+  color: #566885;
+}
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  font-weight: 700;
+  color: #566885;
+}
+/*# sourceMappingURL=input.css.map */

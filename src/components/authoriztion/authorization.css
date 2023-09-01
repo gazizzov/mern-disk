@@ -1,0 +1,23 @@
+.authorization {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  align-items: center;
+  gap: 24px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px;
+}
+.authorization__header {
+  font-size: 30px;
+  font-weight: 700;
+}
+.authorization__btn {
+  border: none;
+  background-color: #566885;
+  color: white;
+  padding: 5px 30px;
+  border-radius: 15px;
+  align-self: flex-end;
+}
+/*# sourceMappingURL=authorization.css.map */
